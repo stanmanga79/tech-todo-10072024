@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Tech ToDo</title>
+    <title>Gradebook</title>
   </head>
   <body>
     <div class="card">
-      <h2>To Do's</h2>
+      <h2>Enter a Grade</h2>
       <form>
         <ul>
           <li>
-            <label for="name">To Do List</label>
+            <label for="name">Student Name</label>
             <select id="student-names">
-              <option value="Set_Daily_Meeting">Set Daily Meeting</option>
-              <option value="Daily_Code_Input">Daily Code Input</option>
-              <option value="Daily_Learning">Daily Learning</option>
-              <option value="Presentation">Presentation</option>
+              <option value="Shannon">Shannon</option>
+              <option value="Cherie">Cherie</option>
+              <option value="Riley">Riley</option>
+              <option value="Rosser">Rosser</option>
             </select>
           </li>
           <li>
-            <label for="grade">Priority</label>
+            <label for="grade">Grade</label>
             <select id="grades">
-              <option value="Green">Green</option>
-              <option value="Yellow">Yellow</option>
-              <option value="Red">Red</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
               <option value="Incomplete">Incomplete</option>
             </select>
           </li>
@@ -40,9 +40,9 @@
     </div>
 
     <div class="card">
-      <h2>Last To Do Completed</h2>
-      <p>To Do List: <span id="saved-name"></span></p>
-      <p>Priority: <span id="saved-grade"></span></p>
+      <h2>Last Saved Grade</h2>
+      <p>Student's Name: <span id="saved-name"></span></p>
+      <p>Grade: <span id="saved-grade"></span></p>
       <p>Comment: <span id="saved-comment"></span></p>
     </div>
     
